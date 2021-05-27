@@ -1,0 +1,26 @@
+{
+  "name": "ruby",
+  "context": "..",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "ruby_container",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "workbench.colorCustomizations": {
+      "editorRuler.foreground": "#fff8fa"
+    }
+  },
+  "appPort": [
+    "5000:5000",
+    "5001:5001",
+    "3000:3000"
+  ],
+  "workspaceFolder": "/app_ruby",
+  "extensions": [
+    "gruntfuggly.todo-tree",
+    "sibiraj-s.vscode-scss-formatter",
+    "firefox-devtools.vscode-firefox-debug",
+    "msjsdiag.debugger-for-chrome",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint"
+  ]
+}

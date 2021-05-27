@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ruby_container:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../:/app_ruby:rw
