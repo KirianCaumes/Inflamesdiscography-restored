@@ -5,3 +5,5 @@ inflamesdiscography.com restored with the last backup (December 17, 2014) from t
 I AM NOT THE OWNER OF THIS WEBSITE.
 
 Some minor things have been changed to make the website work properly.
+
+See it [here](https://kiriancaumes.github.io/Inflamesdiscography-restored/).
