@@ -129,7 +129,7 @@
                         const photosDiv = releaseNode.querySelector('.photos');
                         const photoTemplate = document.getElementById('photo-template');
                         (release.photos || []).forEach(photo => {
-                            const url = 'https://raw.githubusercontent.com/KirianCaumes/Inflamesdiscography-restored/refs/heads/main/images/data/' + decodeURIComponent(url).replace('http://i120.photobucket.com/albums/o194/ryetallica/', '').trim().replaceAll('/', '_');
+                            const url = 'https://raw.githubusercontent.com/KirianCaumes/Inflamesdiscography-restored/refs/heads/main/images/data/' + decodeURIComponent(photo).replace('http://i120.photobucket.com/albums/o194/ryetallica/', '').trim().replaceAll('/', '_');
                             const photoNode = photoTemplate.content.cloneNode(true);
                             const a = photoNode.querySelector('a');
                             const img = photoNode.querySelector('img');
