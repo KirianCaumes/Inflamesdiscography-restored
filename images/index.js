@@ -25,6 +25,16 @@ const axios = require('axios').default
             .flat()
     )]
 
+    // Add some missing urls that were not in the html files
+    urls.push(...[
+        "http://i120.photobucket.com/albums/o194/ryetallica/ASOP%20Thumbnails/ASOP%20Scans/ASOP-32a.jpg",
+        "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/CC-6b.jpg",
+        "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/CC-10a.jpg",
+        "http://i120.photobucket.com/albums/o194/ryetallica/Jester%20Race%20Thumbnails/TJRBA-3c.jpg",
+        "http://i120.photobucket.com/albums/o194/ryetallica/Jester%20Race%20Thumbnails/The%20Jester%20Race/TJR-5b.jpg",
+        "http://i120.photobucket.com/albums/o194/ryetallica/Jester%20Race%20Thumbnails/The%20Jester%20Race/TJR-5a.jpg"
+    ])
+
     console.log(`${urls.length} urls found`)
 
     for (const url of urls) {

@@ -21,9 +21,10 @@
         <div id="content" style="display:none"></div>
         <footer class="mt-8 text-center text-xs text-gray-500">
             All rights given to Ryetallica / Inflamesdiscography.com and In Flames.<br>
-            Original source available at <a href="https://kiriancaumes.github.io/Inflamesdiscography-restored"
+            Original source available at <a href="https://github.com/KirianCaumes/Inflamesdiscography-restored"
                 class="text-indigo-600 underline" target="_blank"
-                rel="noopener">https://kiriancaumes.github.io/Inflamesdiscography-restored</a>
+                rel="noopener">https://github.com/KirianCaumes/Inflamesdiscography-restored</a><br>
+            <span class="block mt-2">✨ This project was generated with AI, errors are possible;.</span>
         </footer>
     </div>
 
@@ -59,7 +60,7 @@
     <template id="photo-template">
         <a href="#" target="_blank" rel="noopener noreferrer"
             class="transition-transform duration-200 hover:scale-105 hover:z-10 hover:ring-2 hover:ring-indigo-400 rounded inline-block">
-            <img src="#" alt="photo" loading="lazy"
+            <img src="#" alt="" loading="lazy"
                 class="w-full h-24 object-cover rounded border border-gray-300 transition-shadow duration-200 hover:shadow-lg" />
         </a>
     </template>
@@ -83,32 +84,10 @@
                     const coverImg = albumNode.querySelector('.album-cover');
                     const releasesDiv = albumNode.querySelector('.releases');
 
-                    // Album cover URLs from Wikipedia (add more as needed)
-                    const albumCovers = {
-                        "Lunar Strain": "https://upload.wikimedia.org/wikipedia/en/e/e1/InFlames-LunarStrain.jpg",
-                        "Lunar Strain/Subterranean": "https://upload.wikimedia.org/wikipedia/en/e/e1/InFlames-LunarStrain.jpg",
-                        "Subterranean": "https://upload.wikimedia.org/wikipedia/en/e/ee/In_Flames_-_Subterranean.jpg",
-                        "The Jester Race": "https://upload.wikimedia.org/wikipedia/en/3/39/In_Flames-The_Jester_Race.jpg",
-                        "Whoracle": "https://upload.wikimedia.org/wikipedia/en/1/11/In-Flames_Whoracle.jpg",
-                        "Colony": "https://upload.wikimedia.org/wikipedia/en/f/f3/Inflamescolony.JPG",
-                        "Clayman": "https://upload.wikimedia.org/wikipedia/en/f/fe/In_Flames_Clayman.jpg",
-                        "The Tokyo Showdown": "https://upload.wikimedia.org/wikipedia/en/f/f7/InFlames-TheTokyoShowdown.jpg",
-                        "Reroute To Remain": "https://upload.wikimedia.org/wikipedia/en/e/ed/In_Flames_-_Reroute_to_Remain.png",
-                        "Soundtrack To Your Escape": "https://upload.wikimedia.org/wikipedia/en/b/bf/InFlames-Soundtrack_To_Your_Escape.jpg",
-                        "Used & Abused... In Live We Trust (4 items)": "https://upload.wikimedia.org/wikipedia/en/0/0d/Used_and_Abused.jpg",
-                        "Come Clarity": "https://upload.wikimedia.org/wikipedia/en/2/2f/Inflamescomeclarity.jpg",
-                        "A Sense Of Purpose": "https://upload.wikimedia.org/wikipedia/en/2/2f/ASenseOfPurposeCover.jpg",
-                        "Sounds Of A Playground Fading": "https://upload.wikimedia.org/wikipedia/en/e/ee/In-flames-sounds-of-a-playground-fading.jpg",
-                        "Siren Charms": "https://upload.wikimedia.org/wikipedia/en/3/36/In_Flames_-_Siren_Charms_%28album_cover%29.jpg",
-                        "Battles": "https://upload.wikimedia.org/wikipedia/en/5/52/In_Flames_Battles_Album_Cover.jpeg",
-                        "Down, Wicked & No Good": "https://www.metal-archives.com/images/6/8/1/8/681877.jpg?5405",
-                        "I, The Mask": "https://upload.wikimedia.org/wikipedia/en/d/da/In_Flames_-_I%2C_the_Mask.png",
-                        "Foregone": "https://upload.wikimedia.org/wikipedia/en/1/14/InFlamesForegone.jpg"
-                    }
                     // Set album title and cover, and add total number of releases
                     const totalReleases = Array.isArray(album.releases) ? album.releases.length : 0;
                     titleSpan.textContent = `${album.album} (${totalReleases} item${totalReleases === 1 ? '' : 's'})`;
-                    coverImg.src = albumCovers[album.album] || "https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg";
+                    coverImg.src = album.iconUrl || "https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg";
                     coverImg.alt = album.album + " cover";
 
                     // Add releases
@@ -129,7 +108,7 @@
                         const photosDiv = releaseNode.querySelector('.photos');
                         const photoTemplate = document.getElementById('photo-template');
                         (release.photos || []).forEach(photo => {
-                            const url = 'https://raw.githubusercontent.com/KirianCaumes/Inflamesdiscography-restored/refs/heads/main/images/data/' + decodeURIComponent(photo).replace('http://i120.photobucket.com/albums/o194/ryetallica/', '').trim().replaceAll('/', '_');
+                            const url = 'https://raw.githubusercontent.com/KirianCaumes/Inflamesdiscography-restored/refs/heads/main/images/data/' + decodeURIComponent(photo.replace('http://i120.photobucket.com/albums/o194/ryetallica/', '')).trim().replaceAll('/', '_');
                             const photoNode = photoTemplate.content.cloneNode(true);
                             const a = photoNode.querySelector('a');
                             const img = photoNode.querySelector('img');
