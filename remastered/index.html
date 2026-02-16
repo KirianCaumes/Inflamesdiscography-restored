@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>In Flames Discography</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#f8f8f8]">
+    <div class="max-w-6xl mx-auto my-2 px-1">
+        <h1 class="mb-4 text-3xl font-bold text-center text-gray-800">In Flames Discography</h1>
+        <div id="spinner" class="flex justify-center items-center py-12">
+            <svg class="animate-spin h-10 w-10 text-indigo-500" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
+            </svg>
+        </div>
+        <div id="content" style="display:none"></div>
+        <footer class="mt-8 text-center text-xs text-gray-500">
+            All rights given to Ryetallica / Inflamesdiscography.com and In Flames.<br>
+            Original source available at <a href="https://kiriancaumes.github.io/Inflamesdiscography-restored"
+                class="text-indigo-600 underline" target="_blank"
+                rel="noopener">https://kiriancaumes.github.io/Inflamesdiscography-restored</a>
+        </footer>
+    </div>
+
+    <!-- Album Accordion Template using details/summary, no notes -->
+    <template id="album-template">
+        <details class="mb-4 group bg-white rounded-xl shadow" name="details">
+            <summary
+                class="w-full flex justify-between items-center px-6 py-4 text-left cursor-pointer select-none focus:outline-none focus:ring-2 focus:ring-indigo-400 transition group-open:bg-indigo-50 rounded-xl">
+                <img class="album-cover w-10 h-10 object-cover rounded shadow mr-3" src="#" alt="Album cover" />
+                <span class="album-title text-2xl font-semibold text-gray-700"></span>
+                <svg class="w-6 h-6 text-indigo-400 transform transition-transform duration-200 group-open:rotate-180 ml-2"
+                    fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+            </summary>
+            <div class="album-panel px-6 pt-2 pb-6">
+                <div class="releases grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2"></div>
+            </div>
+        </details>
+    </template>
+
+    <!-- Release Template -->
+    <template id="release-template">
+        <div class="bg-gray-50 border border-gray-200 rounded-lg p-2 h-full flex flex-col">
+            <div class="release-type text-sm font-bold text-indigo-600 mb-1"></div>
+            <div class="release-title text-lg font-medium text-gray-800 leading-tight"></div>
+            <div class="release-desc text-gray-600 mb-2"></div>
+            <div class="photos grid grid-cols-3 gap-1 mb-0.5"></div>
+        </div>
+    </template>
+
+    <!-- Photo Link/Image Template -->
+    <template id="photo-template">
+        <a href="#" target="_blank" rel="noopener noreferrer"
+            class="transition-transform duration-200 hover:scale-105 hover:z-10 hover:ring-2 hover:ring-indigo-400 rounded inline-block">
+            <img src="#" alt="photo" loading="lazy"
+                class="w-full h-24 object-cover rounded border border-gray-300 transition-shadow duration-200 hover:shadow-lg" />
+        </a>
+    </template>
+    <script>
+        // For demo, fetch the JSON file (if running locally, may need a server)
+        fetch('database.json')
+            .then(res => res.json())
+            .then(data => {
+                const spinner = document.getElementById('spinner');
+                const content = document.getElementById('content');
+                spinner.style.display = 'none';
+                content.style.display = '';
+                const albumTemplate = document.getElementById('album-template');
+                const releaseTemplate = document.getElementById('release-template');
+                data.forEach((album, idx) => {
+                    // Clone album template
+                    const albumNode = albumTemplate.content.cloneNode(true);
+                    const details = albumNode.querySelector('details');
+                    const summary = albumNode.querySelector('summary');
+                    const titleSpan = albumNode.querySelector('.album-title');
+                    const coverImg = albumNode.querySelector('.album-cover');
+                    const releasesDiv = albumNode.querySelector('.releases');
+
+                    // Album cover URLs from Wikipedia (add more as needed)
+                    const albumCovers = {
+                        "Lunar Strain": "https://upload.wikimedia.org/wikipedia/en/e/e1/InFlames-LunarStrain.jpg",
+                        "Lunar Strain/Subterranean": "https://upload.wikimedia.org/wikipedia/en/e/e1/InFlames-LunarStrain.jpg",
+                        "Subterranean": "https://upload.wikimedia.org/wikipedia/en/e/ee/In_Flames_-_Subterranean.jpg",
+                        "The Jester Race": "https://upload.wikimedia.org/wikipedia/en/3/39/In_Flames-The_Jester_Race.jpg",
+                        "Whoracle": "https://upload.wikimedia.org/wikipedia/en/1/11/In-Flames_Whoracle.jpg",
+                        "Colony": "https://upload.wikimedia.org/wikipedia/en/f/f3/Inflamescolony.JPG",
+                        "Clayman": "https://upload.wikimedia.org/wikipedia/en/f/fe/In_Flames_Clayman.jpg",
+                        "The Tokyo Showdown": "https://upload.wikimedia.org/wikipedia/en/f/f7/InFlames-TheTokyoShowdown.jpg",
+                        "Reroute To Remain": "https://upload.wikimedia.org/wikipedia/en/e/ed/In_Flames_-_Reroute_to_Remain.png",
+                        "Soundtrack To Your Escape": "https://upload.wikimedia.org/wikipedia/en/b/bf/InFlames-Soundtrack_To_Your_Escape.jpg",
+                        "Used & Abused... In Live We Trust (4 items)": "https://upload.wikimedia.org/wikipedia/en/0/0d/Used_and_Abused.jpg",
+                        "Come Clarity": "https://upload.wikimedia.org/wikipedia/en/2/2f/Inflamescomeclarity.jpg",
+                        "A Sense Of Purpose": "https://upload.wikimedia.org/wikipedia/en/2/2f/ASenseOfPurposeCover.jpg",
+                        "Sounds Of A Playground Fading": "https://upload.wikimedia.org/wikipedia/en/e/ee/In-flames-sounds-of-a-playground-fading.jpg",
+                        "Siren Charms": "https://upload.wikimedia.org/wikipedia/en/3/36/In_Flames_-_Siren_Charms_%28album_cover%29.jpg",
+                        "Battles": "https://upload.wikimedia.org/wikipedia/en/5/52/In_Flames_Battles_Album_Cover.jpeg",
+                        "Down, Wicked & No Good": "https://www.metal-archives.com/images/6/8/1/8/681877.jpg?5405",
+                        "I, The Mask": "https://upload.wikimedia.org/wikipedia/en/d/da/In_Flames_-_I%2C_the_Mask.png",
+                        "Foregone": "https://upload.wikimedia.org/wikipedia/en/1/14/InFlamesForegone.jpg"
+                    }
+                    // Set album title and cover, and add total number of releases
+                    const totalReleases = Array.isArray(album.releases) ? album.releases.length : 0;
+                    titleSpan.textContent = `${album.album} (${totalReleases} item${totalReleases === 1 ? '' : 's'})`;
+                    coverImg.src = albumCovers[album.album] || "https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg";
+                    coverImg.alt = album.album + " cover";
+
+                    // Add releases
+                    let prevType = null;
+                    album.releases.forEach((release, idx) => {
+                        // Insert a full-width divider if type changes
+                        if (idx > 0 && release.type !== prevType) {
+                            const divider = document.createElement('div');
+                            divider.className = 'col-span-full';
+                            releasesDiv.appendChild(divider);
+                        }
+                        prevType = release.type;
+
+                        const releaseNode = releaseTemplate.content.cloneNode(true);
+                        releaseNode.querySelector('.release-type').textContent = release.type;
+                        releaseNode.querySelector('.release-title').textContent = release.title;
+                        releaseNode.querySelector('.release-desc').textContent = release.description || '';
+                        const photosDiv = releaseNode.querySelector('.photos');
+                        const photoTemplate = document.getElementById('photo-template');
+                        (release.photos || []).forEach(photo => {
+                            const url = 'https://raw.githubusercontent.com/KirianCaumes/Inflamesdiscography-restored/refs/heads/main/images/data/' + decodeURIComponent(url).replace('http://i120.photobucket.com/albums/o194/ryetallica/', '').trim().replaceAll('/', '_');
+                            const photoNode = photoTemplate.content.cloneNode(true);
+                            const a = photoNode.querySelector('a');
+                            const img = photoNode.querySelector('img');
+                            a.href = url;
+                            img.src = url;
+                            photosDiv.appendChild(photoNode);
+                        });
+                        releasesDiv.appendChild(releaseNode);
+                    });
+
+                    // Scroll to details when opened
+                    summary.addEventListener('click', function (e) {
+                        // Wait for details to open (after click event)
+                        setTimeout(() => {
+                            if (details.open) {
+                                details.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                            }
+                        }, 0);
+                    });
+
+                    content.appendChild(details);
+                });
+            });
+    </script>
+</body>
+
+</html>

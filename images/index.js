@@ -32,15 +32,15 @@ const axios = require('axios').default
             const res = await axios.get(url, {
                 headers: { Referer: 'http://i120.photobucket.com/' },
                 responseType: "arraybuffer",
-            })   
+            })
 
             fs.writeFileSync(
-                `${toPath}/${url.split('/')?.pop()}`,
+                `${toPath}/${decodeURIComponent(url).replace('http://i120.photobucket.com/albums/o194/ryetallica/', '').trim().replaceAll('/', '_')}`,
                 res.data,
-            )  
-            console.log(url)       
+            )
+            // console.log(url)
         } catch (error) {
-            console.error(url)            
+            console.error(url)
         }
     }
 })()

@@ -8,4 +8,6 @@ Some minor things have been changed to make the website work properly.
 
 See it [here](https://kiriancaumes.github.io/Inflamesdiscography-restored/).
 
+See it remastered with new style [here](https://kiriancaumes.github.io/Inflamesdiscography-restored/remastered).
+
 See all images [here](https://github.com/KirianCaumes/Inflamesdiscography-restored/tree/main/images/data).
