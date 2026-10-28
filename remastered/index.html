@@ -344,7 +344,7 @@
 
         .sub-head {
             position: sticky;
-            top: var(--toolbar-h);
+            top: calc(var(--toolbar-h) - 1px);
             z-index: 5;
             display: flex;
             align-items: center;
@@ -1073,7 +1073,7 @@
             const toolbar = document.getElementById('toolbar');
             new ResizeObserver(() => {
                 const sticky = getComputedStyle(toolbar).position === 'sticky';
-                document.documentElement.style.setProperty('--toolbar-h', (sticky ? toolbar.offsetHeight : 0) + 'px');
+                document.documentElement.style.setProperty('--toolbar-h', (sticky ? toolbar.getBoundingClientRect().height : 0) + 'px');
             }).observe(toolbar);
         }
 
