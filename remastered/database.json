@@ -9,7 +9,8 @@
                 "description": "3 track promotional cassette, this is the first ever In Flames release and the rarest in my opinion. This cassette was self made by the band to promote awareness and help in finding a record deal. Can anyone confirm roughly how many copies exist?",
                 "photos": [
                     "http://i120.photobucket.com/albums/o194/ryetallica/Demo 93/Demo 93 Scans/Demo-1a.jpg",
-                    "http://i120.photobucket.com/albums/o194/ryetallica/Demo 93/Demo 93 Scans/Demo-1b.jpg"
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Demo 93/Demo 93 Scans/Demo-1b.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/Demo.jpg"
                 ]
             }
         ]
@@ -408,6 +409,18 @@
         "album": "The Jester Race",
         "iconUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/In_Flames-The_Jester_Race.jpg",
         "releases": [
+            {
+                "type": "Test Pressing",
+                "title": "White Label with pressing info.",
+                "description": "Owned by Christopher Heinke (Germany), who supplied the pictures.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Test%20Pressings/Test%20Pressing%20Pics/InFlamesTestVinyls001.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Test%20Pressings/Test%20Pressing%20Pics/InFlamesTestVinyls002.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Test%20Pressings/Test%20Pressing%20Pics/InFlamesTestVinyls003.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Test%20Pressings/Test%20Pressing%20Pics/InFlamesTestVinyls004.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Test%20Pressings/Test%20Pressing%20Pics/InFlamesTestVinyls007.jpg"
+                ]
+            },
             {
                 "type": "Promo",
                 "title": "Germany NB 168-2 Nuclear Blast",
@@ -1167,7 +1180,8 @@
                     "http://i120.photobucket.com/albums/o194/ryetallica/Colony%20Thumbnails/Colony%20Scans/COL-2d.jpg",
                     "http://i120.photobucket.com/albums/o194/ryetallica/Colony%20Thumbnails/Colony%20Scans/COL-2h.jpg",
                     "http://i120.photobucket.com/albums/o194/ryetallica/Colony%20Thumbnails/Colony%20Scans/COL-2f.jpg",
-                    "http://i120.photobucket.com/albums/o194/ryetallica/Colony%20Thumbnails/Colony%20Scans/COL-2e.jpg"
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Colony%20Thumbnails/Colony%20Scans/COL-2e.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/In%20Flames/COL-2f-1.jpg"
                 ]
             },
             {
@@ -1388,6 +1402,24 @@
                     "http://i120.photobucket.com/albums/o194/ryetallica/Unowned%20Thumbnails/Unowned%20Pics/DSC02210.jpg",
                     "http://i120.photobucket.com/albums/o194/ryetallica/Unowned%20Thumbnails/Unowned%20Pics/DSC02212.jpg",
                     "http://i120.photobucket.com/albums/o194/ryetallica/Unowned%20Thumbnails/Unowned%20Pics/DSC02218.jpg"
+                ]
+            },
+            {
+                "type": "CD",
+                "title": "Germany FSR 003 FighterStreet Records (2010 reissue)",
+                "description": "Reissue distributed by tonpool with 3 live bonus tracks: Colony, Ordinary Story and Scorn. Not documented on the original website (only the scans were recovered).",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Colony%20Thumbnails/Colony%20Scans/COL-37a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Colony%20Thumbnails/Colony%20Scans/COL-37b.jpg"
+                ]
+            },
+            {
+                "type": "CD",
+                "title": "Japan Trooper (2010 remaster)",
+                "description": "Digitally remastered reissue with 3 bonus tracks, according to the OBI. Not documented on the original website (only the scans were recovered).",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Colony%20Thumbnails/Colony%20Scans/COL-36a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Colony%20Thumbnails/Colony%20Scans/COL-36b.jpg"
                 ]
             },
             {
@@ -1788,6 +1820,15 @@
                 ]
             },
             {
+                "type": "CD",
+                "title": "Germany FSR 004 FighterStreet Records (2010 reissue)",
+                "description": "Reissue distributed by tonpool with 3 bonus tracks: Only For The Weak (live), Pinball Map (live) and Strong And Smart. Not documented on the original website (only the scans were recovered).",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Clayman%20Thumbnails/Clayman%20Scans/CLA-32a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Clayman%20Thumbnails/Clayman%20Scans/CLA-32b.jpg"
+                ]
+            },
+            {
                 "type": "Cassette",
                 "title": "Poland MP-NB 067 Mystic Production",
                 "description": null,
@@ -2102,7 +2143,7 @@
                     "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl Pics/InFlames166.jpg",
                     "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl Pics/InFlames167.jpg",
                     "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl Pics/InFlames172.jpg",
-                    "http://i120.photobucket.com/albums/o194/ryetallica/Flyer-1.jpg"
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Flyer.jpg"
                 ]
             },
             {
@@ -2518,7 +2559,9 @@
                 "description": "Soundtrack To Your Escape Media Market Teaser in mini gatefold sleeve, contains five songs by In Flames and one each from MNEMIC, Raunchy and Ektomorf.",
                 "photos": [
                     "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/STYES-2a.jpg",
-                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/STYES-2b.jpg"
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/STYES-2b.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Unowned%20Thumbnails/Unowned%20Pics/68f8/1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/NB201288-2-Back.jpg"
                 ]
             },
             {
@@ -2873,8 +2916,7 @@
                 "photos": [
                     "http://i120.photobucket.com/albums/o194/ryetallica/Used%20And%20Abused%20Thumbnails/Used%20And%20Abused%20Scans/UA-4a.jpg",
                     "http://i120.photobucket.com/albums/o194/ryetallica/Used%20And%20Abused%20Thumbnails/Used%20And%20Abused%20Scans/UA-4b.jpg",
-                    "http://i120.photobucket.com/albums/o194/ryetallica/Unowned%20Thumbnails/Unowned%20Pics/IFuailwtKORbox2006CALENDARFRONT.jpg",
-                    "http://i120.photobucket.com/albums/o194/ryetallica/Unowned%20Thumbnails/Unowned%20Pics/IFuailwtKORbox2006CALENDARBACK.jpg"
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Unowned%20Thumbnails/Unowned%20Pics/IFuailwtKORbox2006CALENDARFRONT.jpg"
                 ]
             },
             {
@@ -3973,6 +4015,15 @@
                 "title": "Germany Century Media",
                 "description": "Info to come. Thanks Sebbe!",
                 "photos": []
+            },
+            {
+                "type": "Promo",
+                "title": "USA Century Media (2 track promo)",
+                "description": "Deliver Us (radio edit) and Deliver Us (album version). The disc lists a US promotion contact. Not documented on the original website (only the scans were recovered).",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Deliver%20Us/Deliver%20Us%20Scans/DU-3a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Deliver%20Us/Deliver%20Us%20Scans/DU-3b.jpg"
+                ]
             }
         ]
     },
@@ -3980,6 +4031,16 @@
         "album": "Sounds Of A Playground Fading",
         "iconUrl": "https://upload.wikimedia.org/wikipedia/en/e/ee/In-flames-sounds-of-a-playground-fading.jpg",
         "releases": [
+            {
+                "type": "Promo",
+                "title": "Germany Rock Hard (In Flames 8 Songs)",
+                "description": "Rock Hard promo CD: 2 brand new songs from Sounds Of A Playground Fading, 4 classics and 2 rare live tracks. For promotional use only. Not documented on the original website (only the scans were recovered).",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/8Songs-1a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/8Songs-1b.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/8Songs-1c.jpg"
+                ]
+            },
             {
                 "type": "Vinyl",
                 "title": "Germany 9977471 Century Media (Double Black 12\")",
@@ -4147,6 +4208,35 @@
                 "photos": [
                     "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/SOAPF-13a.jpg",
                     "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/SOAPF-13b.jpg"
+                ]
+            },
+            {
+                "type": "CD",
+                "title": "Argentina Del Imaginario Discos",
+                "description": "Licensed from Century Media. Not documented on the original website (only the scans were recovered).",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/SOAPF-15a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/SOAPF-15b.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/SOAPF-15c.jpg"
+                ]
+            },
+            {
+                "type": "CD",
+                "title": "Russia Mazzar (Version 1)",
+                "description": "Licensed from Century Media for Russia and the CIS. Not documented on the original website (only the scans were recovered).",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/SOAPF-14a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/SOAPF-14b.jpg"
+                ]
+            },
+            {
+                "type": "CD",
+                "title": "Russia Mazzar (Version 2)",
+                "description": "Licensed from Century Media for Russia and the CIS. Not documented on the original website (only the scans were recovered).",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/SOAPF-16a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/SOAPF-16b.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sounds%20Of%20A%20Playground%20Fading%20thumbs/Sounds%20Of%20A%20Playground%20Fading%20Scans/SOAPF-16c.jpg"
                 ]
             }
         ]
@@ -4344,8 +4434,11 @@
             {
                 "type": "Promotional Sticker",
                 "title": "Reroute To Remain Sticker",
-                "description": "Promotional Sticker. Scan coming soon!",
-                "photos": []
+                "description": "Promotional Sticker, double sided.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sticker%20Thumbnails/Stickers%20Scans/StickerCa.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sticker%20Thumbnails/Stickers%20Scans/StickerCb.jpg"
+                ]
             },
             {
                 "type": "Beer Coaster",
@@ -4358,8 +4451,11 @@
             {
                 "type": "Promotional Sticker",
                 "title": "Soundtrack To Your Escape Sticker",
-                "description": "Promotional Sticker. Scan coming soon!",
-                "photos": []
+                "description": "Promotional Sticker, double sided.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sticker%20Thumbnails/Stickers%20Scans/STYE-a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sticker%20Thumbnails/Stickers%20Scans/STYE-b.jpg"
+                ]
             },
             {
                 "type": "Promotional Condom",
@@ -4367,6 +4463,14 @@
                 "description": "Promotional Condom",
                 "photos": [
                     "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IF_Promo_Condom_contents.jpg"
+                ]
+            },
+            {
+                "type": "Sticker",
+                "title": "Used And Abused Sticker",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sticker%20Thumbnails/Stickers%20Scans/StickerA.jpg"
                 ]
             },
             {
@@ -4388,6 +4492,14 @@
                 ]
             },
             {
+                "type": "Sticker",
+                "title": "Come Clarity 'Flame' Sticker",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sticker%20Thumbnails/Stickers%20Scans/StickerB.jpg"
+                ]
+            },
+            {
                 "type": "Candies",
                 "title": "Metaltown Festival 2008 Candies",
                 "description": "Candies",
@@ -4403,6 +4515,16 @@
                 "photos": [
                     "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/ASOP-P1.jpg",
                     "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/ASOP-P2.jpg"
+                ]
+            },
+            {
+                "type": "Patch",
+                "title": "Assorted patches",
+                "description": "Assorted patches. Many more out there.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sticker%20Thumbnails/Stickers%20Scans/Patch-a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sticker%20Thumbnails/Stickers%20Scans/Patch-b.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Sticker%20Thumbnails/Stickers%20Scans/Patch-c.jpg"
                 ]
             }
         ]
@@ -4438,6 +4560,939 @@
                     "http://i120.photobucket.com/albums/o194/ryetallica/Skateboards/Skateboard%20Pics/SB-3a.jpg",
                     "http://i120.photobucket.com/albums/o194/ryetallica/Skateboards/Skateboard%20Pics/SB-3b.jpg",
                     "http://i120.photobucket.com/albums/o194/ryetallica/Skateboards/Skateboard%20Pics/SB-3c.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "album": "Misc",
+        "iconUrl": "https://raw.githubusercontent.com/KirianCaumes/Inflamesdiscography-restored/refs/heads/main/images/data/Jesterhead%20Thumbs_Jesterhead%20Scans_JH-P.jpg",
+        "releases": [
+            {
+                "type": "Autograph",
+                "title": "Reroute To Remain 12\" (Germany)",
+                "description": "Signed in Montreal on February 19th, 2006.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames172.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Flyer.jpg"
+                ]
+            },
+            {
+                "type": "Autograph",
+                "title": "Come Clarity CD w/DVD (USA)",
+                "description": "Given to me by my friend Joey Black. Thanks dude!",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/CCusaSigned-2.jpg"
+                ]
+            },
+            {
+                "type": "Autograph",
+                "title": "Come Clarity EP 7\" (Sweden)",
+                "description": "Signed on November 6th, 2008.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20EP/Come%20Clarity%20EP%20Scans/CCEP-2.jpg"
+                ]
+            },
+            {
+                "type": "Autograph",
+                "title": "The Mirror's Truth 12\" Picture Disc (Germany)",
+                "description": "Signed April 29th, 2008.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames106.jpg"
+                ]
+            },
+            {
+                "type": "Autograph",
+                "title": "A Sense Of Purpose CD w/DVD (USA)",
+                "description": "Newburycomics preorder.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/ASOP%20Thumbnails/ASOP%20Scans/ASOP-5i.jpg"
+                ]
+            },
+            {
+                "type": "Fan Club",
+                "title": "Jesterhead 2008 Colony Package",
+                "description": "The first ever Colony package contains the following: 2008 Jesterhead T-Shirt. Printed, autographed band picture (Some were actually signed in ink). Introductory letter from a band member. Each member wrote their own letter (mine was from Jesper). Two special In Flames guitar pics. There are five colours in total. Jesterhead patch. Jesterhead pin. Seen below is a complete set of all 5 coloured Jesterhead guitar pics as well as the letter from Daniel Svensson. If you have the letter from Bjorn, Anders or Peter, feel free to email me.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-08-5.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-08-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-08-2.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-08-3.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-08-4.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-08-6.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-08-7.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-08-10.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-08-11.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-08-12.jpg"
+                ]
+            },
+            {
+                "type": "Fan Club",
+                "title": "Jesterhead 2009 Colony Package",
+                "description": "Contains the usual items such as a picture, introductory letter and T-shirt as well as a keychain and guitar pic. 2009 Jesterhead T-Shirt Printed, autographed band picture (Some were actually signed in ink). Introductory letter written by the entire band. A Keychain A Guitar Pic. It should be noted that the guitar pic shown below was the intended guitar pic but wasn't available when the 2009 packages first started shipping. In it's place, Colonists signing up received a signature guitar pic from either Bjorn, Jesper or Peter. Later packages finally got the intended Jesterhead pic.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-09-3.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-09-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-09-2.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-09-4.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-09-5.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-09-6.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-09-7.jpg"
+                ]
+            },
+            {
+                "type": "Fan Club",
+                "title": "Jesterhead 2010 Colony Package",
+                "description": "Contains the usual items such as a picture, introductory letter and T-shirt as well as a wristband and guitar pic. 2010 Jesterhead T-Shirt Printed, autographed band picture (Some were actually signed in ink). Introductory letter written by the entire band. Guitar Pic. It should be noted that the intended guitar pic is that from a band member though some recieved the 2009 Jesterhead guitar pic seem above instead as they weren't ready on time the previous year. In Flames We Trust Jesterhead wristband.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-10-6.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-10-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-10-2.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-10-5.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-10-4.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-10-3.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/BG-2a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/BG-2b.jpg"
+                ]
+            },
+            {
+                "type": "Fan Club",
+                "title": "Jesterhead promo bag",
+                "description": "Jesterhead plastic bag promoting the one and only Colony!!!! Thanks to Cindy M for the generosity :)",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Jesterhead%20Thumbs/Jesterhead%20Scans/JH-P.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "album": "Collections",
+        "tab": "collections",
+        "iconUrl": "https://raw.githubusercontent.com/KirianCaumes/Inflamesdiscography-restored/refs/heads/main/images/data/Group%20Shot%20Thumbnails_Group%20Shot%20Photos_InFlames041.jpg",
+        "releases": [
+            {
+                "type": "Collection",
+                "title": "Ryan Theoret collection (Canada)",
+                "description": "I've been listening to In Flames since 2004. Started collecting in '05 and more seriously in '07. By the end of 2007, I wanted to create a website that documented every single release out there- be it official or unofficial, CD, Vinyl, Cassette or all the other various video formats. When I made ./ , I modeled it after my favourite Metallica collecting site - http://www.metallipromo.com/ That former website was my inspiration to be just that for the In Flames collecting world. Your number one source for all that is out there. Hope you like my guide. Don't be shy to add to it :) Jesterhead ID: Ryetallica",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames041.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames040.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames049.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames056.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames001.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames053.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames055.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames057.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/Picture030.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames021.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/Picture034.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames024.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/Picture037.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames020.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames029.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames058.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames025.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/InFlames023.jpg"
+                ]
+            },
+            {
+                "type": "Group Shot",
+                "title": "Ryan Theoret group shots (Canada)",
+                "description": "Group shots of Ryetallica's collection, shown at the top of each album page.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/LunarStrain.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/LunarStrainSubterranean.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/TheJesterRace-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/Whoracle.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/Colony007.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/RerouteToRemain.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/SoundtrackToYourEscape.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/UsedandAbused.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Group%20Shot%20Thumbnails/Group%20Shot%20Photos/CopyofComeClarity.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "Sebastian Carlsson collection (Sweden)",
+                "description": "Quite the collection after only 3 months of serious colllecting. Very impressive!!",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/GroupShot2.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/GroupShot5.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/GroupShotCDs.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "Jens Rye Sørensen collection (Sweden)",
+                "description": "Jens is originally from Denmark and currently living in Sweden. Very nice collection!",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IF1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IF2.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IF3.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IF4.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IF5.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IF6.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "Christopher 'Torkyn' Heinke collection (Germany)",
+                "description": "Chris has a stunning vinyl collection ranging from many different metal bands. Though his In Flames collection might be small, he holds some of the rarest gems out there. You can also see what he has to trade on his website here.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/InFlamesTestVinyls011.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/InFlamesTestVinyls007a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/InFlamesTestVinyls002.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/InFlamesTestVinyls008a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/InFlamesTestVinyls001a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/InFlamesTestVinyls009a.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "Stefan Andersson collection (Sweden)",
+                "description": "A stunning collection indeed. Stefan is currently searching for the following items for his collection. Alias USA Promo on KOCH and Take This Life USA Promo on Ferret Records. You can also check out his website his icelandic horse power website here. Jesterhead ID: stander68",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC_0126.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC_0129.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/P1070342.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC_0136.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC_0140.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "CJ Postal collection (USA)",
+                "description": "Lovely display from a fellow moderator on Jesterhead. Jesterhead ID: CJpostal",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSCN0402.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSCN0405.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSCN0409.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "Martin Wernering collection (Sweden)",
+                "description": "The collection from my friend in Sweden. Many thanks for your help. Jesterhead ID: Wernering Updated Dec. 9th, 2009",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IMG_1306.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IMG_1318.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00547.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02395.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02393.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02396.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02399.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02397.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02394.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02392.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02391.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02382.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02404.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02386.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02389.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02388.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02402.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02407.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02405.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC02401.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "Johan Lööf collection (Sweden)",
+                "description": "The light over the CD's as they are displayed on the shelves make them look like they are part of a shrine. Too cool!! Jesterhead ID: Loof",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IF20Collection20001.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IF20Collection20002.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IF20Collection20003.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "Carlos Reali collection (USA)",
+                "description": "Originally from Venezuela and now residing in the USA, Carlos has an extensive music collection of nearly 4000 CD's!!!!!! Check out his In flames collection. Outstanding! Also, a thank you for donating some scans to my entries that did not have any pictures to go with them.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/01_LS__Sub.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/02_TJR__BAI.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/03_Whoracle.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/04_Colony.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/05_Clayman.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/06_TheTokyoS.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/07_RTR.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/08_Trigger.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/09_TQP.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/10_STYE.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/11_ComeClarity.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/12_TMT.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/13_ASOP.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/Accessories.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/AnotherAutographedBox.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/Framed_Autographs__Pics.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/Framed_Autographs__Pics_2.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/Framed_Autographs__Pics_3.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/Framed_Autographs__Pics_4.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IF_Promo_Condom_contents.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFboxes.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFcardboardPromos-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFcollection1-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFcollection2-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFcollection3-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFcollection4-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFcollection5-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFcollection6-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFcollection7-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFcollection8-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFcollection9-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/Press_Release-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/Press_Release_2-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/TheClearBox-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/VinylsotherStuff-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/Vinyls_Only-1.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "PAN aka Panterista collection (Thailand)",
+                "description": "Pan's favourite band is In Flames. Check out this collection from Thailand. I personally love the Jester Head with the Swedish flag on it. Thank you for sharing :)",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFCollethot.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFSOPPan.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/IFcolletionshot2.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/Pan_IF03.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "Raquel Diez collection (Spain)",
+                "description": "One of the bigger collections I have seen. Thank you! Jesterhead ID: Thulcandra",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/ifvinylsqy3.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/ifcoll2wn8.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/ifcollnl8.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/mirrorsasopbk5.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/comeclarityrs5.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/soundtrackmk8.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/reroutetriggerjy3.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/tokyogd8.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/claymannj0.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/colonyij3.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/whoraclekz2.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/jesterraceblackashgi2.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/lunarsubterraneankn6.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/otherthingsaz1.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "Breiden collection (Sweden)",
+                "description": "Check out these awesome autographs! Love the way it is displayed as well. And that skateboard? Perfectly displayed along side the biggest In flames autograph collection I have ever seen. Very nice!! Jesterhead ID: Breiden",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC07090.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC07105.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "Christophe Garot collection (Belgium)",
+                "description": "One of the bigger In Flames collections I have seen. Thank you for sharing your pictures with me. Much appreciated! Also, a million thank yous for helping me track down some of my missing items. You are an ally in collecting. Jesterhead ID: Christheripper",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00600.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00602.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00603.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00608.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00638.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00663.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00689.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00693.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00702.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00703.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC04959.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC04980.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC04982.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00718.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC00722.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC05078.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC04092.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC04094.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC04095.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC04097.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC04117.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC04118.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/P1030614.jpg"
+                ]
+            },
+            {
+                "type": "Collection",
+                "title": "Donald Ugarte Jr. collection (Nicaragua)",
+                "description": "Many thanks for the pictures, Donald! I love seeing the albums displayed in the rack and with the shirt. Very cool!",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/my_in_flames.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Other%20Collections%20Thumbnails/Other%20Collections%20Pics/DSC03696.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "album": "Owners List",
+        "tab": "collections",
+        "ordered": true,
+        "iconUrl": "https://raw.githubusercontent.com/KirianCaumes/Inflamesdiscography-restored/refs/heads/main/images/data/Vinyl%20Thumbs_Vinyl%20Pics_InFlames090.jpg",
+        "releases": [
+            {
+                "type": "Owners List",
+                "title": "Promo Demo 1993",
+                "description": "Owned by:\nRyan Theoret (Ryetallica) - Canada\nSebastian Carlsson - Sweden\nChristophe Garot (Christheripper) - Belgium",
+                "photos": []
+            },
+            {
+                "type": "Owners List",
+                "title": "Lunar Strain 12\" black vinyl -1000 made",
+                "description": "Limited to 1000 copies.\nOwned by:\nRyan Theoret (Ryetallica) - Canada\nStefan Andersson (stander68) - Sweden\nSebastian Carlsson - Sweden\nChristophe Garot (Christheripper) - Belgum\nStephane Thirion (Archy) - France\nChristopher Heinke - Germany\nMartin Wernering (Wernering) - Sweden\nRaquel Diez (Thulcandra), Spain\nDenis Gaultier ( deudeuglt) - France\nRichard Barrett (Selcath) - USA",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames090.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames091.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames136.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames137.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "Lunar Strain 12\" Picture Disc vinyl - 1000 copies",
+                "description": "Owned by:\nRyan Theoret (Ryetallica) - Canada\nStefan Andersson (stander68) - Sweden\nSebastian Carlsson - Sweden\nChristophe Garot (Christheripper) - Belgium\nStephane Thirion (Archy) - France\nChristopher Heinke - Germany\nRaquel Diez (Thulcandra), Spain\nDenis Gaultier ( deudeuglt) - France\nRichard Barrett (Selcath) - USA",
+                "photos": []
+            },
+            {
+                "type": "Owners List",
+                "title": "Subterranean 12\" black vinyl - 1000 copies",
+                "description": "Owned by:\nRyan Theoret (Ryetallica) - Canada\nStefan Andersson (stander68) - Sweden\nSebastian Carlsson - Sweden\nChristophe Garot (Christheripper) - Belgium\nChristopher Heinke - Germany\nStephane Thirion (Archy) - France\nMartin Werering (Wernering) - Sweden\nRaquel Diez (Thulcandra) - Spain\nDenis Gaultier ( deudeuglt) - France\nRichard Barrett (Selcath) - USA",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames096.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames097.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames139.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames138.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "Subterranean 12\" Picture Disc Vinyl - 1000 copies",
+                "description": "Owned by:\nRyan Theoret (Ryetallica) - Canada\nStefan Andersson (stander68) - Sweden\nSebastian Carlsson - Sweden\nChristophe Garot (Christheripper) - Belgium\nChristopher Heinke - Germany\nStephane Thirion (Archy) - France\nRaquel Diez (Thulcandra) - Spain\nDenis Gaultier ( deudeuglt) - France\nThomas Gustafsson - Sweden",
+                "photos": []
+            },
+            {
+                "type": "Owners List",
+                "title": "Black Ash-Inheritance shaped 10\" vinyl -555 copies",
+                "description": "Limted to 555 copies, hand numbered.\nOwned by:\n#027 - Ryan Theoret (Ryetallica) - Canada\n#076 - Stephane Thirion (Archy) - France\n#085 - Kim Smeds (Thyiack) - Finland\n#149 - Martin Wernering - Sweden\n#150 - Martin Wernering - Sweden\n#235 - Richard Barrett (Selcath) - USA\n#251 - Thomas Gustafsson - Sweden\n#259 - Raquel Diez (Thulcandra) - Spain\n#317 - Johan Axelsson (Player) - Sweden\n#340 - Sebastian Carlsson - Sweden\n#381 - Christophe Garot (Christheripper) - Belgium\n#442 - Sebastian Carlsson - Sweden\n#472 - Stefan Andersson (stander68) - Sweden\n#511 - Denis Gaultier ( deudeuglt) - France\n#536 - Christophe Garot (Christheripper) - Belgium",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames168.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames169.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "Black Ash-Inheritance uncut 12\" vinyl",
+                "description": "20 copies made.\nOwned by:\nRyan Theoret (Ryetallica) - Canada\nStefan Andersson (stander68) - Sweden\nRaquel Diez (Thulcandra) - Spain\nChristophe Garot (Christheripper) - Belgium\nChristopher Heinke - Germany\nDenis Gaultier ( deudeuglt) - France\nThomas Gustafsson - Sweden\nSebastian Carlsson - Sweden",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames005.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames007.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "Black Ash-Inheritance uncut CD",
+                "description": "Not sure how many copies. I'm guessing 10-20...\nOne known copy owned by:\nRyan Theoret (Ryetallica) - Canada",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Black-Ash%20Inheritance/Black-Ash%20Scans/BAI-2a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Black-Ash%20Inheritance/Black-Ash%20Scans/BAI-2b.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "Clayman shaped 'sawblade' cd -1000 copies",
+                "description": "Limited to 1000 copies. Apparently the insert it comes with says this. Anyone got a scan to donate? Would be much appreciated!\nOwned by:\nRyan Theoret (Ryetallica) - Canada\nSebastian Carlsson - Sweden\nStefan Andersson (stander68) - Sweden\nChristophe Garot (Christheripper) - Belgium\nStephane Thirion (Archy) - France\nDorian Vinkl (Abaction) - Slovenia Denis Gaultier ( deudeuglt) - France\nThomas Gustafsson - Sweden",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Clayman%20Thumbnails/Clayman%20Scans/CLA-1a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Clayman%20Thumbnails/Clayman%20Scans/CLA-1b.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Clayman%20Thumbnails/Clayman%20Scans/CLA-1c.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "Bullet Ride USA Promo CD",
+                "description": "Owned by:\nRyan Theoret (Ryetallica) - Canada\nSebastian Carlsson - Sweden\nChristophe Garot (Christheripper) - Belgium\nStephane Thirion (Archy) - France\nStefan Andersson (stander68) - Sweden",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/BR-1a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/BR-1b.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "Soundtrack To Your Escape mail order edition - 1000 copies",
+                "description": "Limited to 1000 copies with numbered certificate.\nOwned by:\n#0070 - Kim Smeds (Thyiack) - Finland\n#0249 - Ryan Theoret (Ryetallica) - Canada\n#0568 - Christophe Garot (Christheripper) - Belgium\n#0645 - Thomas Gustafsson - Sweden\n#0668 - Stefan Andersson (stander68) - Sweden\n#0874 - Martin Wernering - Sweden\n#0875 - Denis Gaultier ( deudeuglt) - France\n#0985 - Raquel Diez (Thulcandra) - Spain",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Soundtrack%20Thumbnails/Soundtrack%20Scans/STYE-mo1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Soundtrack%20Thumbnails/Soundtrack%20Scans/STYE-mo2.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Soundtrack%20Thumbnails/Soundtrack%20Scans/STYE-mo3.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "Come Clarity mail order edition -1000 copies",
+                "description": "Limited to 1000 copies with numbered certificate.\nOwned by:\n#0002 - Denis Gaultier ( deudeuglt) - France\n#0023 - Stefan Andersson (stander68) - Sweden\n#0048 - Ryan Theoret (Ryetallica) - Canada\n#0050 - Raquel Diez (Thulcandra) - Spain\n#0118 - Kim Smeds (Thyiack) - Finland\n#0273 - Christophe Garot (Christheripper) - Belgium\n#0517 - Martin Wernering (Wernering) - Sweden\n#0652 - Thomas Gustafsson - Sweden\n#0861 - CyberInflames - France\n#1000 - Sebastian Carlsson - Sweden",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/Cube5.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/Cube4.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/Cube2.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "Come Clarity USA Mispress",
+                "description": "Mispressed. Plays one song - the title track Come Clarity - instead of the full album. At least 4 known copies. Two accounted for.\nOwned by:\nRyan Theoret (Ryetallica) - Canada\nBicro - USA",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/CC-19a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/CC-19b.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "The Mirror's Truth 12\" picture disc vinyl",
+                "description": "Numbered Picture disc. Limited to ???\nOwned by:\n#0015 - Stefan Andersson (stander68) - Sweden\n#0332 - Ryan Theoret (Ryetallica) - Canada\n#0334 - Ryan Theoret (Ryetallica) - Canada (Fully Signed)\n#0357 - Raquel Diez (Thulcandra) - Spain\n#0589 - Christophe Garot (ChrisTheRipper) - Belgium\n#0615 - Denis Gaultier ( deudeuglt) - France\n#0662 - Martin Wernering (Wernering) - Sweden\n#0764 - Sebastian Carlsson - Sweden\n#0795 - Kim Smeds (Thyiack) - Finland",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames101.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames102.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames105.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames106.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "The Mirror's Truth black 12\" vinyl",
+                "description": "Numbered Black vinyl. Limited to ???\nOwned by:\n#0289 - Betty Farrington - USA\n#0312 - Kim Smeds (Thyiack) - Finland\n#0319 - Ryan Theoret (Ryetallica) - Canada\n#0328 - Sebastian Carlsson - Sweden\n#0335 - Stefan Andersson (stander68) - Sweden\n#0376 - Martin Wernering - Sweden\n#0442 - Ryan Theoret (Ryetallica) - Canada\n#0445 - Denis Gaultier ( deudeuglt) - France",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames103.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames104.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames125.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames124.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "A Sense Of Purpose 12\" picture disc vinyl",
+                "description": "Numbered Picture Disc limited to ???\nOwned by:\n#0003 - Ryan Theoret (Ryetallica) - Canada\n#0029 - Martin Wernering (Wernering) - Sweden\n#0038 - Stefan Andersson (stander68) - Sweden\n#0123 - Sebastian Carlsson - Sweden\n#0474 - Ryan Theoret (Ryetallica) - Canada\n#0476 - Denis Gaultier ( deudeuglt) - France\n#0483 - Christophe Garot (Christheripper) - Belgium\n#0963 - Kim Smedsm (Thyiack) - Finland\n#1166 - Thomas Gustafsson - Sweden\n#1235 - Aksel Stokseth (Submoose360) - Norway\n#1367 - Raquel Diez (Thulcandra) - Spain",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames073.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames074.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames126.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames127.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "A Sense Of Purpose black 12\" vinyl",
+                "description": "Numbered Black vinyl, limted to ???\nOwned by:\n#0573 - Sebastian Carlsson - Sweden\n#0709 - Martin Wernering -Sweden\n#0762 - Kim Smeds (Thyiack) - Finland\n#0841 - Stefan Andersson (stander68) - Sweden\n#0858 - Denis Gaultier ( deudeuglt) - France",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames076.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames077.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames128.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames129.jpg"
+                ]
+            },
+            {
+                "type": "Owners List",
+                "title": "A Sense Of Purpose mail order edition -1500 copies",
+                "description": "Limited to 1500 copies with a numbered certificate.\nOwned by:\n#0154 - Stefan Andersson (stander68) - Sweden\n#0207 - Christophe Garot (ChrisTheRipper) - Belgium\n#0337 - Richard Barrett (Selcath) - USA\n#0740 - Ryan Theoret (Ryetallica) - Canada\n#0800 - Martin Wernering (Wernering) - Sweden\n#0880 - Donald Ugarte Jr. - USA\n#0900 - Denis Gaultier ( deudeuglt) - France\n#0910 - Raquel Diez (Thulcandra) - Spain\n#1137 - Johan Axelsson (Player) - Sweden\n#1154 - Thomas Gustafsson - Sweden\n#1292 - Sebastian Carlsson - Sweden\n#1307 - Aksel Stokseth (Submoose360) - Norway\n#1389 - Betty Farrington - USA\n#1393 - Kim Smeds (Thyiack) - Finland",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/ASOP%20Thumbnails/ASOP%20Scans/IF021.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/ASOP%20Thumbnails/ASOP%20Scans/IF014.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/ASOP%20Thumbnails/ASOP%20Scans/IF006.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "album": "Top 21 Rarest",
+        "tab": "top",
+        "ordered": true,
+        "iconUrl": "https://raw.githubusercontent.com/KirianCaumes/Inflamesdiscography-restored/refs/heads/main/images/data/Promo%20Thumbnails_Promo%20Scans_Demo.jpg",
+        "releases": [
+            {
+                "rank": 1,
+                "type": "Top 21 Rarest",
+                "title": "Promo-Demo 1993",
+                "description": "Apparently 250 self made copies by the original lineup!",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/Demo.jpg"
+                ]
+            },
+            {
+                "rank": 2,
+                "type": "Top 21 Rarest",
+                "title": "Black-Ash Inheritance Uncut 12\" vinyl",
+                "description": "Possibly 10-20 in existence. (Photos from the matching release in Black-Ash Inheritance.)",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames005.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames007.jpg"
+                ]
+            },
+            {
+                "rank": 3,
+                "type": "Top 21 Rarest",
+                "title": "Black-Ash Inheritance Uncut CD",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Black-Ash%20Inheritance/Black-Ash%20Scans/BAI-2a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Black-Ash%20Inheritance/Black-Ash%20Scans/BAI-2b.jpg"
+                ]
+            },
+            {
+                "rank": 4,
+                "type": "Top 21 Rarest",
+                "title": "Come Clarity USA Mispressed - Plays one song - Come Clarity",
+                "description": "Two known copies in existence (Photos from the matching release in Come Clarity.)",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/CC-19a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/CC-19b.jpg"
+                ]
+            },
+            {
+                "rank": 5,
+                "type": "Top 21 Rarest",
+                "title": "A Sense Of Purpose - Japan Advance Promo",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/ASOP%20Thumbnails/ASOP%20Scans/ASOP-24a.jpg"
+                ]
+            },
+            {
+                "rank": 6,
+                "type": "Top 21 Rarest",
+                "title": "Take This Life USA 7\" Promo",
+                "description": "Limited to 500 copies. (Photos from the matching release in Take This Life.)",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/TTL7-1a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/TTL7-1b.jpg"
+                ]
+            },
+            {
+                "rank": 7,
+                "type": "Top 21 Rarest",
+                "title": "Black-Ash Inheritance Shaped 10\", Limited to 555 Copies, Hand numbered",
+                "description": "(Photos from the matching release in Black-Ash Inheritance.)",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames168.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames169.jpg"
+                ]
+            },
+            {
+                "rank": 8,
+                "type": "Top 21 Rarest",
+                "title": "Bullet Ride USA Promo",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/BR-1a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/BR-1b.jpg"
+                ]
+            },
+            {
+                "rank": 9,
+                "type": "Top 21 Rarest",
+                "title": "Clayman Germany Shaped Sawblade CD, Limited to 1000 Copies",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Clayman%20Thumbnails/Clayman%20Scans/CLA-1b.jpg"
+                ]
+            },
+            {
+                "rank": 10,
+                "type": "Top 21 Rarest",
+                "title": "Soundtrack To Your Escape Mail Order Edition, Limited to 1000 Copies",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Soundtrack%20Thumbnails/Soundtrack%20Scans/STYE-mo2.jpg"
+                ]
+            },
+            {
+                "rank": 11,
+                "type": "Top 21 Rarest",
+                "title": "Come Clarity Mail Order Edition, Limited to 1000 Copies",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/Cube1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/Cube4.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/Cube2.jpg"
+                ]
+            },
+            {
+                "rank": 12,
+                "type": "Top 21 Rarest",
+                "title": "Whoracle Germany 12\" Vinyl",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames082.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames083.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames132.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames133.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames134.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames135.jpg"
+                ]
+            },
+            {
+                "rank": 13,
+                "type": "Top 21 Rarest",
+                "title": "Reroute To Remain 4 Track teaser in Envelope",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/RTR-P-2a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/RTR-P-2b.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/RTR-P-2c.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/RTR-P-2d.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/RTR-P-2e.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Promo%20Thumbnails/Promo%20Scans/RTR-P-2f.jpg"
+                ]
+            },
+            {
+                "rank": 14,
+                "type": "Top 21 Rarest",
+                "title": "Lunar Strain 12\", Limited to 1000 Copies",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames090.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames091.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames136.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames137.jpg"
+                ]
+            },
+            {
+                "rank": 15,
+                "type": "Top 21 Rarest",
+                "title": "Subterranean 12\", Limited to 1000 Copies",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames096.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames097.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames139.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames138.jpg"
+                ]
+            },
+            {
+                "rank": 16,
+                "type": "Top 21 Rarest",
+                "title": "Lunar Strain 12\" Picture Disc, Limited to 1000 Copies",
+                "description": "(Photos from the matching release in Lunar Strain.)",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames089-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl%20Pics/InFlames088-1.jpg"
+                ]
+            },
+            {
+                "rank": 17,
+                "type": "Top 21 Rarest",
+                "title": "Subterranean 12\" Picture Disc, Limited to 1000 Copies",
+                "description": "(Photos from the matching release in Subterranean.)",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl Pics/InFlames086-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Vinyl%20Thumbs/Vinyl Pics/InFlames087-1.jpg"
+                ]
+            },
+            {
+                "rank": 18,
+                "type": "Top 21 Rarest",
+                "title": "Come Clarity, Korea w/Paper Doll Set",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/CC-14a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/CC-14b.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/CC-14c.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/CC-14d.jpg"
+                ]
+            },
+            {
+                "rank": 19,
+                "type": "Top 21 Rarest",
+                "title": "Cloud Connected Germany CD Single",
+                "description": "(Photos from the matching release in Cloud Connected.)",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Cloud%20Conneced%20Thumbnails/Cloud%20Connected%20Scans/Cloud-f.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Cloud%20Conneced%20Thumbnails/Cloud%20Connected%20Scans/Cloud-b.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Cloud%20Conneced%20Thumbnails/Cloud%20Connected%20Scans/CLOUD-1c.jpg"
+                ]
+            },
+            {
+                "rank": 20,
+                "type": "Top 21 Rarest",
+                "title": "Black Ash Inheritance Germany Shaped CD",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Black-Ash%20Inheritance/BAI-1a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Black-Ash%20Inheritance/BAI-1b.jpg"
+                ]
+            },
+            {
+                "rank": 21,
+                "type": "Top 21 Rarest",
+                "title": "A Sense Of Purpose Mail Order Edition, Limited to 1500 Copies",
+                "description": "",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/ASOP%20Thumbnails/ASOP%20Scans/IF021.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/ASOP%20Thumbnails/ASOP%20Scans/IF014.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "album": "Top 15",
+        "tab": "top",
+        "ordered": true,
+        "iconUrl": "https://raw.githubusercontent.com/KirianCaumes/Inflamesdiscography-restored/refs/heads/main/images/data/In%20Flames_demo_93-1.jpg",
+        "releases": [
+            {
+                "rank": 1,
+                "type": "Top 15",
+                "title": "In Flames Demo '93 - Promo Cassette",
+                "description": "The earliest In Flames release. Made by the band themselves and passed around. Good luck finding one. This is the number one piece. 190 items later and I'm still searchin'...",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/In%20Flames/demo_93-1.jpg"
+                ]
+            },
+            {
+                "rank": 2,
+                "type": "Top 15",
+                "title": "Black Ash Inheritance - UNCUT 12\"",
+                "description": "Limited to possibly 10-20 copies. The actual amount is actually unknown. By far the second hardest item to obtain and the rarest of all vinyls.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Black-Ash%20Inheritance/pdside1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Black-Ash%20Inheritance/pdside2.jpg"
+                ]
+            },
+            {
+                "rank": 3,
+                "type": "Top 15",
+                "title": "Take This Life/Leeches 7\" Promo (USA)",
+                "description": "Limited to 500 copies, this clear 7\" vinyl is one rare promo and possibly the first ever In Flames 7\".",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Usa-7-a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Usa-7-b.jpg"
+                ]
+            },
+            {
+                "rank": 4,
+                "type": "Top 15",
+                "title": "Bullet Ride Promo (USA)",
+                "description": "This rare CD is possibly the first real USA promotional CD. Contains 3 tracks and doesn't show up that often.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/In%20Flames/BR-a-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/In%20Flames/BR-b-1.jpg"
+                ]
+            },
+            {
+                "rank": 5,
+                "type": "Top 15",
+                "title": "Black-Ash Inheritance - Shaped and Hand Numbered",
+                "description": "Limited to 555 copies and hand numbered. Still someone what easy to find but in 5 years will a real treasure.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Black-Ash%20Inheritance/Shaped10Front.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Black-Ash%20Inheritance/Shaped10Back.jpg"
+                ]
+            },
+            {
+                "rank": 6,
+                "type": "Top 15",
+                "title": "Clayman - Shaped CD",
+                "description": "Limited to 1000 copies. This CD is just cool. Cover actual warns you not to play this in a car stereo.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Clayman%20Thumbnails/Clayman%20Scans/CLA-1a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Clayman%20Thumbnails/Clayman%20Scans/CLA-1b.jpg"
+                ]
+            },
+            {
+                "rank": 7,
+                "type": "Top 15",
+                "title": "Soundtrack To Your Escape Mail Order Edition",
+                "description": "The first of the 'mail order editions', this wooden box comes with a numbered certificate and over sized wooden matches.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Soundtrack%20Thumbnails/Soundtrack%20Scans/STYE-mo1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Soundtrack%20Thumbnails/Soundtrack%20Scans/STYE-mo2.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Soundtrack%20Thumbnails/Soundtrack%20Scans/STYE-mo3.jpg"
+                ]
+            },
+            {
+                "rank": 8,
+                "type": "Top 15",
+                "title": "Come Clarity Mail Order Edition",
+                "description": "The second of the 'mail order editions', this clear acrylic cube is highly sought after. Comes with a numbered certificate and clear 'cell like' artwork.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/Cube1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/Cube4.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Come%20Clarity%20Thumbnails/Come%20Clarity%20Scans/Cube2.jpg"
+                ]
+            },
+            {
+                "rank": 9,
+                "type": "Top 15",
+                "title": "Whoracle 12\"",
+                "description": "Made in Germany. This hard to find 12\" vinyl contains the vinyl only track \"Re-Cycles\" which is what makes it highly sought after. But is it really a rare track? The song is easy to find under its proper name but this is the only place where you can get it on vinyl.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/WH-a.jpg"
+                ]
+            },
+            {
+                "rank": 10,
+                "type": "Top 15",
+                "title": "Lunar Strain 12\"",
+                "description": "Limited to 1000 copies.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/In%20Flames/IF010-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/In%20Flames/IF011-1.jpg"
+                ]
+            },
+            {
+                "rank": 11,
+                "type": "Top 15",
+                "title": "Subterranean 12\"",
+                "description": "Limited to 1000 copies.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Subterranean%20Thumbmails/Subterranean%20Scans/Sub12Front-1.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Subterranean%20Thumbmails/Subterranean%20Scans/Sub12Back-1.jpg"
+                ]
+            },
+            {
+                "rank": 12,
+                "type": "Top 15",
+                "title": "Lunar Strain 12\" Picture Disc",
+                "description": "Limited to 1000 copies.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Lunar%20Strain%20Thumbnails/Lunar%20Strain%20Scans/IF039.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Lunar%20Strain%20Thumbnails/Lunar%20Strain%20Scans/IF040.jpg"
+                ]
+            },
+            {
+                "rank": 13,
+                "type": "Top 15",
+                "title": "Subterranean 12\" Picture Disc",
+                "description": "Limited to 1000 copies.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Subterranean%20Thumbmails/Subterranean%20Scans/IF038.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Subterranean%20Thumbmails/Subterranean%20Scans/IF036.jpg"
+                ]
+            },
+            {
+                "rank": 14,
+                "type": "Top 15",
+                "title": "A Sense Of Purpose Mail Order Edition",
+                "description": "Limited to 1500 copies, this is the third 'mail order edition'. A working labyrinth much like the classic child toy. Comes with a numbered certificate. Even the balls have Jesterheads on them!",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/ASOP%20Thumbnails/ASOP%20Scans/IF021.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/ASOP%20Thumbnails/ASOP%20Scans/IF014.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/ASOP%20Thumbnails/ASOP%20Scans/IF006.jpg"
+                ]
+            },
+            {
+                "rank": 15,
+                "type": "Top 15",
+                "title": "Black-Ash Inheritance Shaped CD",
+                "description": "Not exactly hard to find but certainly one of the coolest In Flames releases from the earlier days. Shaped like a Jesterhead, this CD is a classic release and collectors item for In Flames fans and collectors alike.",
+                "photos": [
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Black-Ash%20Inheritance/BAI-1a.jpg",
+                    "http://i120.photobucket.com/albums/o194/ryetallica/Black-Ash%20Inheritance/BAI-1b.jpg"
                 ]
             }
         ]

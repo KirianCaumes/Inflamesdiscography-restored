@@ -57,6 +57,8 @@
 
         * { box-sizing: border-box; }
 
+        [hidden] { display: none !important; }
+
         html { scroll-behavior: smooth; scrollbar-gutter: stable; }
 
         html:has(.lightbox[open]) { overflow: hidden; }
@@ -126,7 +128,46 @@
             border-bottom: 1px solid var(--border);
         }
 
-        .toolbar .wrap {
+        .tabs {
+            display: flex;
+            gap: 4px;
+            overflow-x: auto;
+            border-bottom: 1px solid var(--border);
+            scrollbar-width: none;
+        }
+
+        .tabs button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            flex: none;
+            padding: 12px 14px 10px;
+            border: 0;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -1px;
+            background: none;
+            color: var(--muted);
+            font: 600 1rem/1.2 Oswald, sans-serif;
+            letter-spacing: .03em;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        .tabs button:hover { color: var(--text); }
+
+        .tabs button[aria-selected="true"] { color: var(--text); border-bottom-color: var(--accent); }
+
+        .tabs .count {
+            font: 500 .72rem/1 Inter, sans-serif;
+            letter-spacing: 0;
+            padding: 3px 7px;
+            border-radius: 999px;
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            color: var(--muted);
+        }
+
+        .toolbar .controls {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
@@ -297,6 +338,8 @@
 
         .group-body { padding: 8px 18px 20px; }
 
+        .group-body.flat { padding-top: 18px; }
+
         .subgroup + .subgroup { margin-top: 8px; }
 
         .sub-head {
@@ -398,6 +441,8 @@
 
         .photo-count { right: 8px; bottom: 8px; font-variant-numeric: tabular-nums; }
 
+        .rank { left: 8px; bottom: 8px; padding: 5px 10px; background: #c2410c; font: 700 1.05rem/1 Oswald, sans-serif; letter-spacing: .02em; }
+
         .photo-count svg { width: 13px; height: 13px; }
 
         .card-body { display: flex; flex-direction: column; gap: 4px; padding: 12px 14px 14px; flex: 1; }
@@ -408,7 +453,7 @@
 
         .card-title.empty { color: var(--muted); font-weight: 500; font-style: italic; }
 
-        .card-desc { margin: 2px 0 0; color: var(--muted); font-size: .825rem; line-height: 1.5; overflow-wrap: anywhere; }
+        .card-desc { margin: 2px 0 0; color: var(--muted); font-size: .825rem; line-height: 1.5; overflow-wrap: anywhere; white-space: pre-line; }
 
         .card-desc.clamped { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 
@@ -552,12 +597,13 @@
     </header>
 
     <div class="toolbar" id="toolbar">
-        <div class="wrap">
+        <nav class="wrap tabs" id="tabs" role="tablist" aria-label="Sections"></nav>
+        <div class="wrap controls">
             <label class="search">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
                 <input id="search" type="search" placeholder="Search catalogue no., label, description…" autocomplete="off" aria-label="Search releases">
             </label>
-            <div class="segmented" role="group" aria-label="Group releases by">
+            <div class="segmented" id="view-toggle" role="group" aria-label="Group releases by">
                 <button type="button" data-view="album">By album</button>
                 <button type="button" data-view="country">By country</button>
             </div>
@@ -609,15 +655,21 @@
         const PHOTOBUCKET = 'http://i120.photobucket.com/albums/o194/ryetallica/';
 
         const COUNTRIES = {
-            Argentina: '🇦🇷', Asia: '🌏', Brazil: '🇧🇷', Bulgaria: '🇧🇬', China: '🇨🇳', Germany: '🇩🇪',
+            Argentina: '🇦🇷', Asia: '🌏', Belgium: '🇧🇪', Brazil: '🇧🇷', Bulgaria: '🇧🇬', Canada: '🇨🇦', China: '🇨🇳', Germany: '🇩🇪',
             Hungary: '🇭🇺', Indonesia: '🇮🇩', Italy: '🇮🇹', Japan: '🇯🇵', Korea: '🇰🇷', Malaysia: '🇲🇾',
-            Mexico: '🇲🇽', Poland: '🇵🇱', Romania: '🇷🇴', Russia: '🇷🇺', Singapore: '🇸🇬', Sweden: '🇸🇪',
+            Mexico: '🇲🇽', Nicaragua: '🇳🇮', Poland: '🇵🇱', Romania: '🇷🇴', Russia: '🇷🇺', Singapore: '🇸🇬', Spain: '🇪🇸', Sweden: '🇸🇪',
             Taiwan: '🇹🇼', Thailand: '🇹🇭', Turkey: '🇹🇷', UK: '🇬🇧', Ukraine: '🇺🇦', USA: '🇺🇸',
         };
         const ALIASES = { Brasil: 'Brazil' };
         const UNKNOWN = 'Unspecified';
 
-        const state = { view: 'album', q: '', country: '', type: '' };
+        const TABS = [
+            { id: 'discography', label: 'Discography' },
+            { id: 'collections', label: 'Collections' },
+            { id: 'top', label: 'Top rarest' },
+        ];
+
+        const state = { tab: 'discography', view: 'album', q: '', country: '', type: '' };
         let albums = [];
         let releases = [];
         let currentGroups = [];
@@ -691,7 +743,9 @@
 
         // ---------- Data ----------
         function load(data) {
-            albums = data.map((a, index) => ({ index, name: a.album, cover: a.iconUrl, slug: slugify(a.album) }));
+            albums = data.map((a, index) => ({
+                index, name: a.album, cover: a.iconUrl, slug: slugify(a.album), tab: a.tab || 'discography', ordered: Boolean(a.ordered),
+            }));
             releases = data.flatMap((a, i) => (a.releases || []).map(r => {
                 const { country, title, edition } = parseTitle(r.title || '');
                 const description = (r.description || '').trim();
@@ -703,12 +757,17 @@
                     description,
                     country,
                     photos: (r.photos || []).map(photoUrl),
+                    rank: r.rank,
                     haystack: [a.album, r.type, r.title, description, country].join(' ').toLowerCase(),
                 };
             }));
         }
 
         const isFiltering = () => Boolean(state.q || state.country || state.type);
+        // Rankings keep their order: always shown by section, never regrouped by country.
+        const currentView = () => state.tab === 'top' ? 'album' : state.view;
+        const tabReleases = () => releases.filter(r => r.album.tab === state.tab);
+        const itemCount = n => state.tab === 'discography' ? plural(n, 'release') : `${n} ${n === 1 ? 'entry' : 'entries'}`;
 
         function matches(r) {
             if (state.country && r.country !== state.country) return false;
@@ -718,7 +777,7 @@
         }
 
         function buildGroups(list) {
-            const byAlbum = state.view === 'album';
+            const byAlbum = currentView() === 'album';
             const map = new Map();
             for (const r of list) {
                 const key = byAlbum ? r.album.index : r.country;
@@ -729,7 +788,7 @@
             return keys.map(key => {
                 const items = map.get(key);
                 return byAlbum
-                    ? { id: 'album-' + albums[key].slug, title: albums[key].name, album: albums[key], items, subKey: r => r.country, subSort: countrySort }
+                    ? { id: 'album-' + albums[key].slug, title: albums[key].name, album: albums[key], flat: albums[key].ordered, items, subKey: r => r.country, subSort: countrySort }
                     : { id: 'country-' + slugify(key), title: key, country: key, items, subKey: r => r.album.index, subSort: (a, b) => a - b };
             });
         }
@@ -747,7 +806,7 @@
 
         function groupMeta(group) {
             const photos = group.items.reduce((n, r) => n + r.photos.length, 0);
-            const parts = [h('span', {}, plural(group.items.length, 'release')), h('span', {}, plural(photos, 'photo'))];
+            const parts = [h('span', {}, itemCount(group.items.length)), h('span', {}, plural(photos, 'photo'))];
             if (group.album) {
                 const countries = [...new Set(group.items.map(r => r.country))].sort(countrySort);
                 parts.push(h('span', { class: 'flags', title: countries.join(', ') }, countries.map(flagOf).join('')));
@@ -789,6 +848,11 @@
         }
 
         function renderBody(group, body) {
+            if (group.flat) {
+                body.classList.add('flat');
+                body.append(h('div', { class: 'cards' }, group.items.map(renderCard)));
+                return;
+            }
             const subs = new Map();
             for (const r of group.items) {
                 const key = group.subKey(r);
@@ -828,8 +892,10 @@
         }
 
         function cardMedia(r) {
-            const badge = h('span', { class: 'overlay-chip badge ' + typeTone(r.type) }, r.type);
-            if (!r.photos.length) return h('div', { class: 'card-media empty' }, badge, 'No photo');
+            // Ranked entries only show their rank: the section already says which list they belong to.
+            const rank = r.rank != null && h('span', { class: 'overlay-chip rank' }, '#' + r.rank);
+            const badge = !rank && h('span', { class: 'overlay-chip badge ' + typeTone(r.type) }, r.type);
+            if (!r.photos.length) return h('div', { class: 'card-media empty' }, badge, rank, 'No photo');
 
             return h('button', {
                 type: 'button',
@@ -839,6 +905,7 @@
             },
                 h('img', { src: r.photos[0], alt: '', loading: 'lazy', decoding: 'async', onerror: e => e.target.parentElement.classList.add('broken') }),
                 badge,
+                rank,
                 r.photos.length > 1 && h('span', { class: 'overlay-chip photo-count', 'aria-hidden': 'true' }, cameraIcon(), r.photos.length));
         }
 
@@ -858,7 +925,8 @@
         }));
 
         function renderToc(groups) {
-            document.getElementById('toc-title').textContent = state.view === 'album' ? 'Albums' : 'Countries';
+            document.getElementById('toc-title').textContent =
+                currentView() === 'country' ? 'Countries' : state.tab === 'discography' ? 'Albums' : 'Sections';
             document.getElementById('toc').replaceChildren(...groups.map(g => h('li', {},
                 h('a', {
                     href: '#' + g.id, onclick: e => {
@@ -881,14 +949,18 @@
 
         function render() {
             const content = document.getElementById('content');
-            const list = releases.filter(matches);
+            const list = tabReleases().filter(matches);
             currentGroups = buildGroups(list);
 
-            const unit = state.view === 'album' ? 'album' : 'country';
-            document.getElementById('result-count').textContent =
-                `${plural(list.length, 'release')} · ${currentGroups.length} ${currentGroups.length === 1 ? unit : unit === 'album' ? 'albums' : 'countries'}`;
+            const n = currentGroups.length;
+            const unit = currentView() === 'country' ? (n === 1 ? 'country' : 'countries')
+                : state.tab === 'discography' ? plural(n, 'album').replace(/^\d+ /, '') : plural(n, 'section').replace(/^\d+ /, '');
+            document.getElementById('result-count').textContent = `${itemCount(list.length)} · ${n} ${unit}`;
 
             document.querySelectorAll('.segmented button').forEach(b => b.setAttribute('aria-pressed', b.dataset.view === state.view));
+            document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.tab === state.tab));
+            // Rankings are short, ordered lists: grouping and country/format filters don't apply there.
+            for (const id of ['view-toggle', 'country-filter', 'type-filter']) document.getElementById(id).hidden = state.tab === 'top';
             renderToc(currentGroups);
 
             if (!currentGroups.length) {
@@ -905,11 +977,12 @@
         }
 
         function renderStats() {
-            const countries = new Set(releases.map(r => r.country));
+            const discography = releases.filter(r => r.album.tab === 'discography');
+            const countries = new Set(discography.map(r => r.country));
             countries.delete(UNKNOWN);
             const photos = releases.reduce((n, r) => n + r.photos.length, 0);
             document.getElementById('stats').replaceChildren(...[
-                [albums.length, 'Sections'], [releases.length, 'Releases'], [countries.size, 'Countries'], [photos, 'Photos'],
+                [albums.filter(a => a.tab === 'discography').length, 'Sections'], [discography.length, 'Releases'], [countries.size, 'Countries'], [photos, 'Photos'],
             ].map(([value, label]) => h('div', { class: 'stat' }, h('b', {}, value.toLocaleString('en')), h('span', {}, label))));
         }
 
@@ -920,7 +993,7 @@
         }
 
         function renderFilters() {
-            const count = key => releases.reduce((acc, r) => acc.set(r[key], (acc.get(r[key]) || 0) + 1), new Map());
+            const count = key => tabReleases().reduce((acc, r) => acc.set(r[key], (acc.get(r[key]) || 0) + 1), new Map());
 
             const countries = count('country');
             fillSelect(document.getElementById('country-filter'), '🌍 All countries',
@@ -931,13 +1004,33 @@
                 [...types.entries()].sort((a, b) => b[1] - a[1]).map(([t, n]) => [t, `${t} (${n})`]));
         }
 
+        function renderTabs() {
+            document.getElementById('tabs').replaceChildren(...TABS.map(tab => h('button', {
+                type: 'button', role: 'tab', 'data-tab': tab.id, onclick: () => switchTab(tab.id),
+            }, tab.label, h('span', { class: 'count' }, releases.filter(r => r.album.tab === tab.id).length))));
+        }
+
         // ---------- Controls ----------
-        function resetFilters() {
+        function clearFilters() {
             Object.assign(state, { q: '', country: '', type: '' });
             document.getElementById('search').value = '';
             document.getElementById('country-filter').value = '';
             document.getElementById('type-filter').value = '';
+        }
+
+        function resetFilters() {
+            clearFilters();
             render();
+        }
+
+        function switchTab(tab) {
+            if (state.tab === tab) return;
+            state.tab = tab;
+            clearFilters();
+            renderFilters();
+            render();
+            history.replaceState(null, '', location.pathname + location.search);
+            window.scrollTo({ top: document.getElementById('toolbar').offsetTop });
         }
 
         function updateToggleLabel() {
@@ -1047,6 +1140,9 @@
             .then(res => res.json())
             .then(data => {
                 load(data);
+                const target = albums.find(a => location.hash === '#album-' + a.slug);
+                if (target) state.tab = target.tab;
+                renderTabs();
                 renderStats();
                 renderFilters();
                 render();
